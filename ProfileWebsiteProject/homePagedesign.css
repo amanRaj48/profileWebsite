@@ -1,0 +1,85 @@
+/* Styling for heading tags */
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+/* Styling for navigation */
+#navigation {
+    text-align: center;
+    text-decoration: solid;
+    background-color: darkgrey;
+}
+
+/* Styling for photo and about section */
+#photo_and_about {
+    display: flex;
+}
+
+/* Styling for profile photo */
+#my_profile_photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+/* Styling for body */
+body {
+    background-image: url(images/cute-pic.jpg);
+    background-size: cover;
+}
+
+/* Styling for paragraphs */
+p {
+    font-family: Verdana;
+    font-size: 18px;
+    top: 20px;
+    left: 20px;
+}
+
+/* Styling for map iframe */
+#map {
+    width: 100%;
+    height: 450px;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+
+/* Styling for skills and hobbies section */
+#skills_and_hobbies {
+    display: flex;
+    margin: 10px;
+}
+
+/* Styling for skills section and hobbies section */
+#skills,#hobbies{
+    background-color: bisque;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 30%;
+    height: 350px;
+}
+
+
+/* Styling for images */
+.images {
+    width: auto;
+    height: 50px;
+    border-radius: 40px;
+}
+
+/* Styling for social media links */
+.social-link {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Styling for social media images */
+.social-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
